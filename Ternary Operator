@@ -1,0 +1,9 @@
+let nums = 6;
+if(nums>5) {
+    console.log("Number is greater than 5");
+} else {
+    console.log("Number is less than or equal to 5");
+}
+console.log(
+    nums > 5 ? "Number is greater than 5": "Number is less than or equal to 5"
+);
