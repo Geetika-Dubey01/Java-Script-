@@ -1,0 +1,9 @@
+const user = {
+    name:"Jhon Deo",
+    age : 30,
+    occupation: "Software Engineer",
+};
+const arr = ["Ritik", 30,"Instructor"];
+for( const index in arr) {
+    console.log(index);
+}
