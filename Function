@@ -1,0 +1,8 @@
+function hey() { // declared 
+    console.log("Hey");
+    console.log("There");
+}
+//calling a function 
+hey();
+hey();
+hey()
