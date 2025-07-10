@@ -1,0 +1,6 @@
+let x = 26;
+do {
+    console.log(x);
+    x++;
+}
+while (x<25) 
