@@ -1,0 +1,8 @@
+function fxn(exp){
+console.log("exp");
+}
+fxn("this is a traditional fxn expression");
+let fxn1 = (exp1) => {
+console.log(exp1)
+};
+fxn1("This is a arrow fxn expression");
