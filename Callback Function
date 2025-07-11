@@ -1,0 +1,8 @@
+function hello(first_name,callback) {
+    console.log(first_name);
+    callback();
+}
+function goodbye() {
+    console.log("Goodbye users");
+}
+hello("Ritik",goodbye);
