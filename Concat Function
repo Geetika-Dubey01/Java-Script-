@@ -1,0 +1,5 @@
+let str = "Ritik";
+let str2 = "Masand";
+let str3= "Male";
+let newstr = str.concat(str2).concat(str3);
+console.log(newstr);
