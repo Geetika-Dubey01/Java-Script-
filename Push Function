@@ -1,0 +1,8 @@
+let arr = [1,2,3,4,5];
+arr.push(100);
+arr.push(500);
+arr.pop();
+arr.pop();
+arr.push("operations performed succesfully");
+arr.push("geetika",21);
+console.log(arr);
