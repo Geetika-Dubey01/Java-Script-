@@ -1,0 +1,4 @@
+let str = "HELLO MY NAME IS GEETIKA DUBEY";
+let convertedStr =  str.toLowerCase();
+console.log(str);
+console.log(convertedStr);
