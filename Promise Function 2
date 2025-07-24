@@ -1,0 +1,34 @@
+const f1Promise = new Promise((resolve,reject) => {
+    setTimeout(() => {
+        if(Math.random() > 0.5) {
+            resolve("Friend1: Hey I am in for Goa");
+        }else {
+            reject("Friend1: Sorry mere pet mai dard hai !");
+        }
+    },3000);
+});
+const f2Promise = new Promise((resolve,reject) => {
+    setTimeout(() => {
+        if(Math.random() > 0.5) {
+            resolve("Friend2: Hey I am in for Goa");
+        }else {
+            reject("Friend2: Sorry meri billi bemar hai !");
+        }
+    },2000);
+});
+const f3Promise = new Promise((resolve,reject) => {
+    setTimeout(() => {
+        if(Math.random() > 0.5) {
+            resolve("Friend3: Hey I am in for Goa")
+        }else {
+            reject("Friend3: Sorry mujhe pw skills ke live sections attend krna hai !")
+        }
+    },1000);
+});
+Promise.all([f1Promise,f2Promise,f3Promise]).then((msg)=> {
+    console.log(msg)
+    console.log("yay we are going goa!") 
+}).catch((msg) => {
+    console.log(msg)
+    console.log("yaar band karo goa ka plan banana!") 
+})
