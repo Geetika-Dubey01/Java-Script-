@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>createElement Example</title>
+</head>
+<body>
+
+<button onclick="addParagraph()">Add Paragraph</button>
+
+<script>
+  function addParagraph() {
+    // Step 1: Create the element
+    const para = document.createElement("p");
+
+    // Step 2: Add text to it
+    para.textContent = "This is a new paragraph added using JavaScript!";
+
+    // Step 3: Append it to the body or another element
+    document.body.appendChild(para);
+  }
+</script>
+
+</body>
+</html>
