@@ -1,0 +1,20 @@
+const simranPromise = new Promise((resolve,reject)=>{
+let parentDecision = false 
+if(parentDecission) {
+    resolve("yayy,ab shadi ki taiyyari karo", parentDecision)
+} else {
+    reject("papa ne IAS dhoond lia hai !, sorry ....", parentDecission)
+}
+});
+simranPromise .then((msg,pd)=>  {
+console.log("Simran Message : ",msg)
+console.log("Parent decission was",pd)
+console.log("let's book the wedding venue")
+}).catch((msg,pd) => {
+    console.log("Simran Message : ",msg)
+   console.log("parent decission was",pd)
+console.log("Tinder kha ho yaar !")
+ 
+}).finally(()=>  {
+    console.log("chalo life mai clearity mili");
+});
