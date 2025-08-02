@@ -1,0 +1,6 @@
+try {
+let obj = undefined 
+console.log(obj.name)
+} catch(err) {
+    console.log("Exception Handler")
+}
