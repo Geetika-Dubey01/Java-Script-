@@ -1,0 +1,4 @@
+async function getMessage(){
+    return 'Hello Students'
+}
+console.log(getMessage())
