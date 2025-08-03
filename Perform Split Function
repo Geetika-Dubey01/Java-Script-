@@ -1,0 +1,5 @@
+let word = "Geetika"
+console.log(word)
+console.log(word.trim())
+name ="Geetika Dubey"
+console.log(name.split(""))
