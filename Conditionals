@@ -1,0 +1,6 @@
+let marks_obtained = 30;
+if ( marks_obtained > 33) {
+console.log("student has passed"); 
+} else { 
+console.log("better luck next time");
+}
