@@ -1,0 +1,5 @@
+function hello(frst_name,last_name='Singh'){
+    console.log(first_name,last_name);
+}
+hello("Ritik","Masand");
+hello('sumit');
