@@ -1,0 +1,7 @@
+let arr = [2,4,6,8,10,4]
+let every_arr = arr.every((ele)=>{
+    if(ele%2===0){
+    return true;
+} else return false;
+});
+console.log(every_arr);
