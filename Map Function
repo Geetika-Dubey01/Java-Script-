@@ -1,0 +1,6 @@
+
+let arr = [1,2,3,4,5];
+let sq_arr = arr.map((ele) => {
+    return ele * ele;
+});
+console.log(sq_arr);
