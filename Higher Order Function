@@ -1,0 +1,8 @@
+function getGreetMethod() {
+    return function() {
+        console.log("Hello Students")
+    }
+}
+let greetFn = getGreetMethod()
+console.log(typeof greetFn)
+greetFn()
