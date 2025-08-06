@@ -1,0 +1,9 @@
+const  obj = {
+first_name:"Ritik",
+last_name:"Masand",
+age: 25,
+verify_age: function ()  {
+    console.log(obj.age);
+},
+};
+obj.verify_age();
