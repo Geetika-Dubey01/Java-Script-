@@ -1,0 +1,6 @@
+function sub(a,b) {
+    console.log(a - b);
+    console.log("sub performed succesfully!");
+}
+let ans = sub(10,5);
+console.log(ans);
