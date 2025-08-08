@@ -1,0 +1,4 @@
+let str = "hi my name is geetika dubey";
+let convertstr = str.toUpperCase();
+console.log(str);
+console.log(convertstr);
