@@ -1,0 +1,3 @@
+let fruit = ['mango','orange','apple','blueberries','grapes']
+fruit.splice(2,2,'kiwis')
+console.log(fruit);
