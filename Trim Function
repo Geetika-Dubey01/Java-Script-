@@ -1,0 +1,4 @@
+let str = "                  ritik mansand                "
+console.log(str);
+let newstr = str.trim();
+console.log(newstr);
