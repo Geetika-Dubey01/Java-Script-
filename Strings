@@ -1,0 +1,9 @@
+// single quotes 
+let name = 'Geetika'
+let age = 25;
+let gender = 'Female'
+//double quotes
+let name1 = "Gargee"
+let age1 = 25;
+let gender1 = "Female"
+console.log(name,name1);
