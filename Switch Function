@@ -1,0 +1,20 @@
+const grade = 2;
+switch(grade) {
+    case "distinction":
+    console.log("Marks greater than or equal to 85");
+    break;
+    case "grade 1":
+       console.log("Marks greater than 70 but less than 85");
+    break;
+     case "grade 2":
+       console.log("Marks greater than 60 but less than 70");
+    break;
+    case "grade 3":
+       console.log("Marks greater than 50 but less than 60");
+    break;
+    case "grade 4":
+       console.log("Marks greater than 40 but less than 50");
+    break;
+    default:
+        console.log("you have failed");
+}
